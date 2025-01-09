@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Press+Start+2P&display=swap');
+
+#pokedex{
+    background-image: url("https://portfolio.fateclins.edu.br/~1920831911011/assets/img/Pokedex.jpg");
+    background-repeat: no-repeat, repeat;
+    height: 800px;
+    margin: 25% 20% 20% 45%;
+    transform: scale(1.5);
+}
+#desc {
+    margin: 13% 20% 20% 38%;
+    position: absolute;
+    width: 140px;
+    color: black; /* Cor do texto */
+    font-size: 11px;
+    font-family: "Press Start 2P", serif;
+}
+#pokemons{
+    margin: 25% 20% 20% 8%;
+    height: 200px;
+    width: 100px;
+    transform: scale(2.1);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#pokemonName{
+    position: absolute;
+    margin: 80% 20% 20%  15%;
+    font-size: 5px;
+    font-family: "Press Start 2P", serif;
+}
