@@ -49,27 +49,9 @@ body{
 
 }
 
-@media screen and (max-width:1600px) {
-    #pokedex{
-        width:  60em;
-        margin: 25em 0em 0em 45em;
-    }
-    #desc {
-        margin:  8em 3em 4em 22em;
-    }
-    #pokemons{
-        margin: 9.7em 3em 4em 3.4em;
-    }
-    #audio{
-        margin: -7em 3em 4em 0em;
-        border-radius: 10px;
-        cursor: pointer;
-        z-index: 1;
-    }
-}
 @media screen and (max-width:900px),screen and (max-height:1080px){
     #pokedex{
-        margin: 20em 0em 0em 40em;
+        margin: 25em 0em 0em 50em;
         transform: scale(1.1);
     }
     #desc {
