@@ -53,7 +53,7 @@ body{
     #pokedex{
         width:  60em;
         margin: 25em 0em 0em 45em;
-}
+    }
     #desc {
         margin:  8em 3em 4em 22em;
     }
@@ -67,12 +67,11 @@ body{
         z-index: 1;
     }
 }
-
-@media screen and (max-width:1300px) {
+@media screen and (max-width:900px),screen and (max-height:1080px){
     #pokedex{
-        width:  60em;
-        margin: 18em 0em 0em 35em;
-}
+        margin: 20em 0em 0em 40em;
+        transform: scale(1.1);
+    }
     #desc {
         margin:  8em 3em 4em 22em;
     }
@@ -86,22 +85,57 @@ body{
         z-index: 1;
     }
 }
-@media screen and (max-width:700px),
-screen and (max-height:875px) {
-        #pokedex{
-            margin: 10em 0em 0em -4em;
-            transform: scale(0.8);
-        }
-        #desc {
-            margin:  8em 3em 4em 22em;
-        }
-        #pokemons{
-            margin: 9.7em 3em 4em 3.4em;
-        }
-        #audio{
-            margin: -7em 3em 4em 0em;
-            border-radius: 10px;
-            cursor: pointer;
-            z-index: 1;
-        }
+@media screen and (max-width:810px){
+    #pokedex{
+        margin: 20em 0em 0em 15em;
+        transform: scale(1.1);
+    }
+    #desc {
+        margin:  8em 3em 4em 22em;
+    }
+    #pokemons{
+        margin: 9.7em 3em 4em 3.4em;
+    }
+    #audio{
+        margin: -7em 3em 4em 0em;
+        border-radius: 10px;
+        cursor: pointer;
+        z-index: 1;
+    }
+}
+@media screen and (max-width:500px),screen and (max-height:800px){
+    #pokedex{
+        margin: 10em 0em 0em -4em;
+        transform: scale(0.8);
+    }
+    #desc {
+        margin:  8em 3em 4em 22em;
+    }
+    #pokemons{
+        margin: 9.7em 3em 4em 3.4em;
+    }
+    #audio{
+        margin: -7em 3em 4em 0em;
+        border-radius: 10px;
+        cursor: pointer;
+        z-index: 1;
+    }
+}
+@media screen and (max-height:500px){
+    #pokedex{
+        margin: 7em 0em 0em 25em;
+        transform: scale(0.8);
+    }
+    #desc {
+        margin:  8em 3em 4em 22em;
+    }
+    #pokemons{
+        margin: 9.7em 3em 4em 3.4em;
+    }
+    #audio{
+        margin: -7em 3em 4em 0em;
+        border-radius: 10px;
+        cursor: pointer;
+        z-index: 1;
+    }
 }
