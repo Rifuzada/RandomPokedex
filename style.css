@@ -1,31 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Press+Start+2P&display=swap');
 
-#pokedex{
-    background-image: url("https://portfolio.fateclins.edu.br/~1920831911011/assets/img/Pokedex.jpg");
-    background-repeat: no-repeat, repeat;
-    height: 800px;
-    margin: 25% 20% 20% 45%;
-    transform: scale(1.5);
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
-#desc {
-    margin: 13% 20% 20% 38%;
-    position: absolute;
-    width: 140px;
-    color: black; /* Cor do texto */
-    font-size: 11px;
-    font-family: "Press Start 2P", serif;
+
+@media screen and (max-width:2500px) {
+    #pokedex{
+        background-image: url("https://portfolio.fateclins.edu.br/~1920831911011/assets/img/Pokedex.jpg");
+        background-repeat: no-repeat, repeat;
+        height: 800px;
+        margin: 30em 0em 0em 55em;
+        transform: scale(1.5);
+    }
+    #desc {
+        margin: 8em 3em 4em 22em;
+        position: absolute;
+        width: 140px;
+        color: black; /* Cor do texto */
+        font-size: 11px;
+        font-family: "Press Start 2P", serif;
+    }
+    #pokemons{
+        margin:  9.7em 3em 4em 3.4em;
+        height: 200px;
+        width: 100px;
+        transform: scale(2.1);
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+    #pokemonName{
+        position: absolute;
+        margin: 80% 20% 20%  15%;
+        font-size: 5px;
+        font-family: "Press Start 2P", serif;
+    }
+    
+
 }
-#pokemons{
-    margin: 25% 20% 20% 8%;
-    height: 200px;
-    width: 100px;
-    transform: scale(2.1);
-    background-repeat: no-repeat;
-    position: absolute;
+
+@media screen and (max-width:1600px) {
+    #pokedex{
+        width:  60em;
+        margin: 25em 0em 0em 45em;
 }
-#pokemonName{
-    position: absolute;
-    margin: 80% 20% 20%  15%;
-    font-size: 5px;
-    font-family: "Press Start 2P", serif;
+    #desc {
+        margin:  8em 3em 4em 22em;
+    }
+    #pokemons{
+        margin: 9.7em 3em 4em 3.4em;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    #pokedex{
+        width:  60em;
+        margin: 18em 0em 0em 35em;
+}
+    #desc {
+        margin:  8em 3em 4em 22em;
+    }
+    #pokemons{
+        margin: 9.7em 3em 4em 3.4em;
+    }
+}
+@media screen and (max-width:700px),
+screen and (max-height:875px) {
+        #pokedex{
+            margin: 10em 0em 0em -4em;
+            transform: scale(0.8);
+        }
+        #desc {
+            margin:  8em 3em 4em 22em;
+        }
+        #pokemons{
+            margin: 9.7em 3em 4em 3.4em;
+        }
 }
