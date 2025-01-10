@@ -6,6 +6,13 @@ axios.get(`https://pokeapi.co/api/v2/pokemon-species/${random}`)
         let pokemonDesc = entries.find(entry => entry.language.name === "en" && entry.version.name === "red");
         let pokemonName = response.data.name;
         let pokemonNum = response.data.id;
+        axios.get(`https://pokeapi.co/api/v2/pokemon/${random}`).then(response => {
+            let cry = response.data.cries.legacy;
+            let audio = document.querySelector("audio");
+            audio.src = cry;
+            audio.volume = 0.2;
+        })
+
 
         document.getElementById("pokemonName").innerHTML = pokemonName;
         document.getElementById("pokemonName").innerHTML += " #" + pokemonNum;

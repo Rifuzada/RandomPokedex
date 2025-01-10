@@ -12,6 +12,7 @@ body{
         height: 800px;
         margin: 30em 0em 0em 55em;
         transform: scale(1.5);
+        z-index: 2;
     }
     #desc {
         margin: 8em 3em 4em 22em;
@@ -19,6 +20,7 @@ body{
         width: 140px;
         color: black; /* Cor do texto */
         font-size: 11px;
+        z-index: 1;
         font-family: "Press Start 2P", serif;
     }
     #pokemons{
@@ -27,15 +29,23 @@ body{
         width: 100px;
         transform: scale(2.1);
         background-repeat: no-repeat;
+        z-index: 2;
         position: absolute;
     }
     #pokemonName{
         position: absolute;
         margin: 80% 20% 20%  15%;
         font-size: 5px;
+        z-index: 1;
         font-family: "Press Start 2P", serif;
     }
-    
+
+    #audio{
+        margin: -7em 3em 4em 0em;
+        border-radius: 10px;
+        cursor: pointer;
+        z-index: 1;
+    }
 
 }
 
@@ -50,6 +60,12 @@ body{
     #pokemons{
         margin: 9.7em 3em 4em 3.4em;
     }
+    #audio{
+        margin: -7em 3em 4em 0em;
+        border-radius: 10px;
+        cursor: pointer;
+        z-index: 1;
+    }
 }
 
 @media screen and (max-width:1300px) {
@@ -63,6 +79,12 @@ body{
     #pokemons{
         margin: 9.7em 3em 4em 3.4em;
     }
+    #audio{
+        margin: -7em 3em 4em 0em;
+        border-radius: 10px;
+        cursor: pointer;
+        z-index: 1;
+    }
 }
 @media screen and (max-width:700px),
 screen and (max-height:875px) {
@@ -75,5 +97,11 @@ screen and (max-height:875px) {
         }
         #pokemons{
             margin: 9.7em 3em 4em 3.4em;
+        }
+        #audio{
+            margin: -7em 3em 4em 0em;
+            border-radius: 10px;
+            cursor: pointer;
+            z-index: 1;
         }
 }
