@@ -5,7 +5,7 @@ body{
     overflow-x: hidden;
 }
 
-@media screen and (max-width:2500px) {
+@media screen and (max-width:2600px) {
     #pokedex{
         background-image: url("https://portfolio.fateclins.edu.br/~1920831911011/assets/img/Pokedex.jpg");
         background-repeat: no-repeat, repeat;
